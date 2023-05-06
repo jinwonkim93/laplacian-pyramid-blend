@@ -10,6 +10,8 @@ img1 = cv2.imread("./images/west_1.jpeg")
 img2 = cv2.imread("./images/west_2.jpeg")
 mask = cv2.imread("./images/mask.png")
 
+blender = LaplacianPyramidBlender()
+
 composite = blender(img1, img2, mask)
 
 cv2.imwrite("./images/composite.png", composite)
