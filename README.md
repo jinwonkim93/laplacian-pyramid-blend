@@ -4,6 +4,7 @@ Implementation of Image Blending from [High-Resolution Neural Face Swapping for 
 
 ![](./images/paper.png)
 
+![](./images/concat.png)
 ## Usage
 ```python
 import cv2
