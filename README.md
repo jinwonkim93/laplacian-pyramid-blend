@@ -28,7 +28,7 @@ pip install laplacian-pyramid-blend
 
 ## Citations
 ```bibtex
-@inproceedings{Naruniec2020NeuralaceSwap,
+@inproceedings{Naruniec2020NeuralFaceSwap,
     title   = {High-Resolution Neural Face Swapping for Visual Effects},
     author  = {Jacek Naruniec, Leonhard Helminger, Christopher Schroers, Romann M. Weber},
     year    = {2020}
