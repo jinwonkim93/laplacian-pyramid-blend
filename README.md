@@ -19,6 +19,5 @@ cv2.imwrite("./images/composite.png", composite)
 
 # Install
 ```bash
-git clone https://github.com/jinwonkim93/laplacian-pyramid-blend.git
-pip install -e .
+pip install laplacian-pyramid-blend
 ```
