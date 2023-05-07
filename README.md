@@ -1,6 +1,10 @@
-# Implementation of Image Blending from [High-Resolution Neural Face Swapping for Visual Effects](https://studios.disneyresearch.com/wp-content/uploads/2020/06/High-Resolution-Neural-Face-Swapping-for-Visual-Effects.pdf#page=5&zoom=100,65,109)
+## Modified Laplacian Pyramid Blending
 
-# Usage
+Implementation of Image Blending from [High-Resolution Neural Face Swapping for Visual Effects](https://studios.disneyresearch.com/wp-content/uploads/2020/06/High-Resolution-Neural-Face-Swapping-for-Visual-Effects.pdf#page=5&zoom=100,65,109)
+
+![](./images/paper.png)
+
+## Usage
 ```python
 import cv2
 import numpy as np
@@ -17,7 +21,16 @@ composite = blender(img1, img2, mask)
 cv2.imwrite("./images/composite.png", composite)
 ```
 
-# Install
+## Install
 ```bash
 pip install laplacian-pyramid-blend
+```
+
+## Citations
+```bibtex
+@inproceedings{Naruniec2020NeuralaceSwap,
+    title   = {High-Resolution Neural Face Swapping for Visual Effects},
+    author  = {Jacek Naruniec, Leonhard Helminger, Christopher Schroers, Romann M. Weber},
+    year    = {2020}
+}
 ```
